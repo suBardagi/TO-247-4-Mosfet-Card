@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 127.254 25.146)
+		(size 75.946 51.054)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "78db0642-b402-4a95-8b02-a7bb116551a0")
+		(property "Sheetname" "Gate Driver - Top"
+			(at 127.254 24.4344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Gate-Driver-Top.kicad_sch"
+			(at 127.254 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "to247-4_card"
+				(path "/b6582af5-6107-4ea5-94ab-56651da9db37"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 25.4 25.4)
 		(size 76.454 50.8)
 		(exclude_from_sim no)

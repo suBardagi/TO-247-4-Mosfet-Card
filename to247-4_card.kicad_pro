@@ -621,6 +621,10 @@
     [
       "c6f9b239-fb2c-4550-a056-6f105d804563",
       "Power"
+    ],
+    [
+      "78db0642-b402-4a95-8b02-a7bb116551a0",
+      "Gate Driver - Top"
     ]
   ],
   "text_variables": {}
