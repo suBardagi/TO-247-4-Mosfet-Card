@@ -1,4 +1,4 @@
-25226540483611925
+25228299304713662
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55989,6 +55989,13 @@ DCDC-converters
 B_LS-1WR3
 
 
+0
+4
+4
+DCDC-converters
+DCY0004A_M
+
+LM1117IMP-3.3/NOPB 
 0
 4
 4

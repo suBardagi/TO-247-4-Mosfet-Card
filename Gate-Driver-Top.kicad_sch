@@ -5,7 +5,7 @@
 	(uuid "1fe2c551-30cc-4990-9f41-7fdbc06d0d36")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Library-N1-Gate-Driver:UCC21550ADWR"
+		(symbol "Library-N1-Gate-Driver:UCC5320SCDWV"
 			(pin_names
 				(offset 0.254)
 			)
@@ -13,23 +13,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U?"
-				(at 0 17.78 0)
+				(at 0 14.478 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "UCC21550ADWR"
-				(at 0 15.24 0)
+			(property "Value" "UCC5320SCDWV"
+				(at 0 11.938 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "gate_drivers:SOIC16_DW_TEX-L"
-				(at -1.27 24.638 0)
+			(property "Footprint" "gate_drivers:DWV0008A-IPC_B"
+				(at 1.27 0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,8 +38,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/ucc21550"
-				(at 1.778 27.178 0)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/ucc5320"
+				(at 1.27 0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -57,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "UCC21550ADWR"
+			(property "ki_keywords" "UCC5320SCDWV"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC16_DW_TEX SOIC16_DW_TEX-M SOIC16_DW_TEX-L"
+			(property "ki_fp_filters" "DWV0008A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,11 +75,47 @@
 					(hide yes)
 				)
 			)
-			(symbol "UCC21550ADWR_0_1"
+			(symbol "UCC5320SCDWV_0_1"
 				(pin power_in line
-					(at -15.24 8.89 0)
+					(at -12.7 7.62 0)
 					(length 2.54)
-					(name "VCCI"
+					(name "VCC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "IN-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -95,117 +131,9 @@
 					)
 				)
 				(pin power_in line
-					(at -15.24 6.35 0)
+					(at -12.7 -7.62 0)
 					(length 2.54)
-					(name "VCCI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 2.54 0)
-					(length 2.54)
-					(name "INA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -15.24 0 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -2.54 0)
-					(length 2.54)
-					(name "INB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 -6.35 0)
-					(length 2.54)
-					(name "DIS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -8.89 0)
-					(length 2.54)
-					(name "DT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -15.24 -11.43 0)
-					(length 2.54)
-					(name "GND"
+					(name "GND1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -221,16 +149,16 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 8.89 180)
+					(at 12.7 7.62 180)
 					(length 2.54)
-					(name "VDDA"
+					(name "VCC2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "16"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -239,16 +167,16 @@
 					)
 				)
 				(pin output line
-					(at 15.24 6.35 180)
+					(at 12.7 2.54 180)
 					(length 2.54)
-					(name "OUTA"
+					(name "OUTH"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -256,53 +184,17 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 15.24 3.81 180)
+				(pin output line
+					(at 12.7 -2.54 180)
 					(length 2.54)
-					(name "VSSA"
+					(name "OUTL"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 -2.54 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -311,52 +203,16 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 -6.35 180)
+					(at 12.7 -7.62 180)
 					(length 2.54)
-					(name "VDDB"
+					(name "VEE2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 -8.89 180)
-					(length 2.54)
-					(name "OUTB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 15.24 -11.43 180)
-					(length 2.54)
-					(name "VSSB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -365,22 +221,21 @@
 					)
 				)
 			)
-			(symbol "UCC21550ADWR_1_1"
+			(symbol "UCC5320SCDWV_1_1"
 				(rectangle
-					(start -12.7 12.7)
-					(end 12.7 -15.24)
+					(start -10.16 10.668)
+					(end 10.16 -10.922)
 					(stroke
 						(width 0)
 						(type solid)
 					)
 					(fill
-						(type color)
-						(color 255 255 194 0.7)
+						(type background)
 					)
 				)
 				(polyline
 					(pts
-						(xy -2.54 12.7) (xy -2.54 -15.24)
+						(xy -2.286 10.668) (xy -2.286 -10.922)
 					)
 					(stroke
 						(width 0)
@@ -392,19 +247,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 2.286) (xy 2.54 2.286) (xy 2.54 12.7)
-					)
-					(stroke
-						(width 0)
-						(type dash)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -4.318) (xy 2.54 -4.318) (xy 2.54 -15.113)
+						(xy 2.286 10.668) (xy 2.286 -10.922)
 					)
 					(stroke
 						(width 0)
@@ -415,7 +258,7 @@
 					)
 				)
 				(text "Isolation Barrier"
-					(at 0 -1.016 900)
+					(at 0 -0.254 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -427,33 +270,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Library-N1-Gate-Driver:UCC21550ADWR")
-		(at 132.08 64.77 0)
+		(lib_id "Library-N1-Gate-Driver:UCC5320SCDWV")
+		(at 139.7 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ab438475-2699-474b-ac3c-5b41d4b81844")
+		(uuid "7f9e70aa-b033-4842-aae1-9a9a6736a009")
 		(property "Reference" "U1"
-			(at 132.08 46.99 0)
+			(at 139.7 45.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "UCC21550ADWR"
-			(at 132.08 49.53 0)
+		(property "Value" "UCC5320SCDWV"
+			(at 139.7 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "gate_drivers:SOIC16_DW_TEX-L"
-			(at 130.81 40.132 0)
+		(property "Footprint" "gate_drivers:DWV0008A-IPC_B"
+			(at 140.97 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -462,8 +305,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ucc21550"
-			(at 133.858 37.592 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ucc5320"
+			(at 140.97 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -473,7 +316,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 64.77 0)
+			(at 139.7 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -481,53 +324,29 @@
 				(hide yes)
 			)
 		)
-		(pin "14"
-			(uuid "4fa02245-9ea4-4d5a-9ffd-123a39fefc9c")
-		)
-		(pin "12"
-			(uuid "3a6952c2-3fde-4c3f-b763-19effb3f6fe6")
-		)
-		(pin "10"
-			(uuid "f9464c02-e6aa-452c-b3eb-4d49dd6e20b6")
-		)
-		(pin "9"
-			(uuid "6f6c5184-37a6-47af-a476-50253f0a77c2")
-		)
-		(pin "13"
-			(uuid "ff1ee198-d394-4105-861f-7b09238dd793")
-		)
-		(pin "11"
-			(uuid "e1909bb8-1bf1-4fb7-a530-91f46714c62e")
-		)
-		(pin "7"
-			(uuid "a542fb16-bad3-4eef-abaf-abf7024590a6")
-		)
-		(pin "5"
-			(uuid "ff10f94f-7b67-4fd5-9a6f-a6fbd22a9115")
-		)
-		(pin "1"
-			(uuid "5537001b-6fcb-4e01-8e07-e522d25ffb20")
+		(pin "8"
+			(uuid "19926cad-082c-4904-8657-0425f8202f4a")
 		)
 		(pin "2"
-			(uuid "18919744-864b-41a8-9bbf-e3465ead852f")
-		)
-		(pin "16"
-			(uuid "f83a1f15-5703-4fa7-b34f-ca478bdbf9ed")
-		)
-		(pin "15"
-			(uuid "32d6a5ba-785f-4510-82ef-94ba87704cc5")
-		)
-		(pin "3"
-			(uuid "4e1cc3f5-16c5-4f0d-9b30-3a2fa47e87fd")
-		)
-		(pin "8"
-			(uuid "082e7881-9f85-4dad-acaa-d3bfebd5735d")
-		)
-		(pin "6"
-			(uuid "178ecf5d-8332-4e2c-a6af-694217a6b2a7")
+			(uuid "48714e9f-cf40-4a0b-9d45-b0ca43166aa9")
 		)
 		(pin "4"
-			(uuid "8c8bb60f-4717-4b30-b16f-7a9769cba118")
+			(uuid "75cee617-336a-49ba-9563-dd1f8d12ff79")
+		)
+		(pin "5"
+			(uuid "1b8d7075-8f2e-4576-a8d2-1f48c0bb3d1a")
+		)
+		(pin "1"
+			(uuid "9f1ce8a6-de26-472e-9dc6-6bf0e9818759")
+		)
+		(pin "7"
+			(uuid "4a0d70fe-1b6a-4464-94f0-0bbebc1ba204")
+		)
+		(pin "3"
+			(uuid "30f827b5-e2fb-4903-b12a-6313c4713eb3")
+		)
+		(pin "6"
+			(uuid "e77048dc-827b-4226-8bd7-1caa1313eea6")
 		)
 		(instances
 			(project ""
