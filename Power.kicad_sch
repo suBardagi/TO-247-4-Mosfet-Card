@@ -2053,6 +2053,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 107.95) (xy 204.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c9d8ae8-3b8b-4a4d-a835-4327906e0d99")
+	)
+	(wire
+		(pts
 			(xy 127 177.8) (xy 114.3 177.8)
 		)
 		(stroke
@@ -2173,6 +2183,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 77.47) (xy 204.47 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3242e9f7-1b7f-464a-8bbd-6db299174b2f")
+	)
+	(wire
+		(pts
 			(xy 95.25 50.8) (xy 95.25 48.26)
 		)
 		(stroke
@@ -2180,6 +2200,16 @@
 			(type default)
 		)
 		(uuid "353ea1ad-7c1b-4011-89ea-54a210b6ad60")
+	)
+	(wire
+		(pts
+			(xy 198.12 111.76) (xy 198.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac47ee3-6011-4dd1-9264-8f25b1fdeddd")
 	)
 	(wire
 		(pts
@@ -2643,6 +2673,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 81.28) (xy 198.12 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b865aaab-bbf9-46c1-b5cf-06271971ae35")
+	)
+	(wire
+		(pts
 			(xy 101.6 165.1) (xy 114.3 165.1)
 		)
 		(stroke
@@ -2670,16 +2710,6 @@
 			(type default)
 		)
 		(uuid "bd00e424-d0bb-4012-a76c-807e4c724ae1")
-	)
-	(wire
-		(pts
-			(xy 177.8 77.47) (xy 204.47 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfdbbcbe-96c6-4248-8566-41c0459d2a93")
 	)
 	(wire
 		(pts
@@ -2750,16 +2780,6 @@
 			(type default)
 		)
 		(uuid "d177bc07-acc6-4c37-baf7-34374b6f2036")
-	)
-	(wire
-		(pts
-			(xy 177.8 107.95) (xy 204.47 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d20bc0b7-66ce-49ee-820a-6e37bab4f0f5")
 	)
 	(wire
 		(pts
@@ -2873,28 +2893,6 @@
 	)
 	(global_label "Bot_MOS_G"
 		(shape input)
-		(at 177.8 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "50e29ff5-f16e-467b-a8e8-34d7081850ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.4735 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Bot_MOS_G"
-		(shape input)
 		(at 177.8 102.87 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2955,28 +2953,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Top_MOS_G"
-		(shape input)
-		(at 177.8 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f4cdc2f6-caa6-4a34-8e4a-9ccf47345451")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.3526 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3042,6 +3018,72 @@
 			(project ""
 				(path "/b6582af5-6107-4ea5-94ab-56651da9db37/c6f9b239-fb2c-4550-a056-6f105d804563"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c2ef014-4679-4014-a7b6-e502503bcdc5")
+		(property "Reference" "#PWR013"
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Top_MOS_S"
+			(at 198.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59302ffc-4f0c-46d8-a238-b88a26cd2ac7")
+		)
+		(instances
+			(project "to247-4_card"
+				(path "/b6582af5-6107-4ea5-94ab-56651da9db37/c6f9b239-fb2c-4550-a056-6f105d804563"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4032,7 +4074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SW"
+		(property "Value" "Top_MOS_S"
 			(at 130.81 69.85 0)
 			(effects
 				(font
@@ -4074,72 +4116,6 @@
 			(project ""
 				(path "/b6582af5-6107-4ea5-94ab-56651da9db37/c6f9b239-fb2c-4550-a056-6f105d804563"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 130.81 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a85b4c9-ef03-486f-b7b0-c33cf6ab37d0")
-		(property "Reference" "#PWR08"
-			(at 130.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 130.683 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e3e9cd4-6803-4a84-baf4-2e399b208227")
-		)
-		(instances
-			(project ""
-				(path "/b6582af5-6107-4ea5-94ab-56651da9db37/c6f9b239-fb2c-4550-a056-6f105d804563"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4282,6 +4258,72 @@
 			(project "to247-4_card"
 				(path "/b6582af5-6107-4ea5-94ab-56651da9db37/c6f9b239-fb2c-4550-a056-6f105d804563"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95d3cacc-c934-4149-9525-567f94f64041")
+		(property "Reference" "#PWR08"
+			(at 130.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Bot_MOS_S"
+			(at 130.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "244dda2d-6ec7-4574-a153-130f9a2fd657")
+		)
+		(instances
+			(project "to247-4_card"
+				(path "/b6582af5-6107-4ea5-94ab-56651da9db37/c6f9b239-fb2c-4550-a056-6f105d804563"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4484,6 +4526,72 @@
 			(project "to247-4_card"
 				(path "/b6582af5-6107-4ea5-94ab-56651da9db37/c6f9b239-fb2c-4550-a056-6f105d804563"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7e4ddbe-e069-45ab-8cf5-9b747ee7fc99")
+		(property "Reference" "#PWR014"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Bot_MOS_S"
+			(at 198.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d3d35dd-72e1-49bb-b211-10ce27c8ab27")
+		)
+		(instances
+			(project "to247-4_card"
+				(path "/b6582af5-6107-4ea5-94ab-56651da9db37/c6f9b239-fb2c-4550-a056-6f105d804563"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)

@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "78db0642-b402-4a95-8b02-a7bb116551a0")
-		(property "Sheetname" "Gate Driver - Top"
+		(property "Sheetname" "Gate Driver"
 			(at 127.254 24.4344 0)
 			(effects
 				(font
